@@ -16,7 +16,7 @@ module to forward the state from the server side to the client side.
 
 ### How retrieve on the client the same context as in the server ?
 
-Server side
+#### Server side
 ```javascript
 var express = require('express');
 var expressState = require('express-state');
@@ -40,7 +40,7 @@ server.get('/yourRoute', function(req, res) {
     // ...
 
     // Dump the stores context before render the view
-    res.expose(storeCollection.dumpContext(), 'Stores');
+    res.expose(storeManager.dumpContext(), 'Stores');
 
     res
         .status(200)
@@ -50,9 +50,9 @@ server.get('/yourRoute', function(req, res) {
 
 ```
 
-Client side
+#### Client side
 ```javascript
-// import React, Flux, Stores, Compoenent etc ...
+// import React, Flux, Stores, Component etc ...
 // ...
 var fluxIsomorphicHelpers = require('./flux-isomorphic-helpers');
 var ProfileStore = require('stores/ProfileStore');
