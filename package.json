@@ -1,0 +1,36 @@
+{
+  "name": "flux-isomorphic-helpers",
+  "description": "Helpers to build an isomorphic Web Application with Flux.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/tsunammis/flux-isomorphic-helpers",
+  "keywords": [
+    "flux",
+    "react",
+    "helpers",
+    "isomorphic"
+  ],
+  "author": {
+    "name": "Stan Chollet",
+    "email": "stanislas.chollet@gmail.com"
+  },
+  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/tsunammis/flux-isomorphic-helpers/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tsunammis/flux-isomorphic-helpers.git"
+  },
+  "dependencies": {
+    "lodash": "^3.2.0"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/tsunammis/flux-isomorphic-helpers/blob/master/LICENSE"
+    }
+  ]
+}
